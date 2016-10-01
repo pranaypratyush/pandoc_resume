@@ -1,100 +1,74 @@
-Johnny Coder
+Pranay Pratyush
 ============
 
-----
+> <pranay.pratyush@gmail.com>  ; A 201, Nehru Hall, IIT Kharagpur, West Bengal, India
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2014-2019 (expected)
+:   **BTech and MTech,  
+Computer Science And Engineering**, Indian Institute Of Technology, Kharagpur
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
-
-Experience
+Fields of Interest
 ----------
 
-**Your Most Recent Work Experience:**
+Robotics, Machine Learning, Parallel Computing, Image Processing
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Projects
+----------
 
-* First item
+(Dec 2014 - present)
+:    **Autonomous Underwater Vehicle**
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
 
-**That Other Job You Had**
 
-Also with a short description.
+Working on the software aspect of an autonomous underwater Vehicle @ [TeamAUV](http://auviitkgp.github.io/), guided by Dr. Cheruvu Siva Kumar, IIT Kharagpur
 
-Technical Experience
+* Designed and implemented a [integrated mission planner](https://github.com/pranaypratyush/kraken_3.0/tree/buoy_detect_temp/vision_stack/buoy_detect/src), that required knowledge of multithreading, interprocess communication and networking APIs on linux
+
+* Built a machine learning based [pixel classification system](https://github.com/pranaypratyush/kraken_3.0/tree/buoy_detect_temp/vision_stack/buoy_detect/vw_detect/src) for detection of underwater features, that required knowledge of basic machine learning and image processing
+
+* Wrote a [Kalman filter](https://github.com/pranaypratyush/kalman_filter/tree/legacy) for position estimation of AUV by fusion of IMU and DVL sensor data
+
+* Deviced a PID controller for yaw control of the AUV
+
+* Currently working on a machine learning based feature classification framework to detect underwater objects and their characteristics
+
+(Feb 2015)
+:    **Interactive software for extracting data from graphs**
+
+Created an interactive software that took documents and images with graphs as input
+and returned the numerical data from the graphs in a tabular form
+
+
+(Sep 2015)
+:    **Graphics Editor System**
+
+
+Built a JAVA software that supports basic image editing functions
+
+
+Technical Strengths
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Programming Languages : **C**, **C++**, **Java**, **Python**, **x86 assembly**
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Libraries : **[OpenCV](http://opencv.org/)**, **[Robot Operating System](http://www.ros.org/)**, **Linux APIs for multithreading and interprocess communication**
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Position Of Responsibility
+---------------------
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+(April 2016 - present)
+:    Leading a 5 member team dedicated towards the software section of [TeamAUV](http://auviitkgp.github.io/)
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+Relevant Courses
+----------------
+|                                               |                                                  |
+|-----------------------------------------------|--------------------------------------------------|
+| Algorithms (I and II)                         | Computer Organization and architecture           |
+| Probability and Statistics                    | Software Engineering                             |
+| Machine Learning (online course on Coursera)  | Artificial Intelligence (online course from MIT) |
+| Neural Networks (online course from Stanford) | Introduction to AI (online course on Coursera)   |

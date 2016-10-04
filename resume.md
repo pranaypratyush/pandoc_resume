@@ -27,13 +27,13 @@ Projects
 
 Working on the software aspect of an autonomous underwater Vehicle @ [TeamAUV](http://auviitkgp.github.io/), guided by Dr. Cheruvu Siva Kumar, IIT Kharagpur
 
-* Designed and implemented a [integrated mission planner](https://github.com/pranaypratyush/kraken_3.0/tree/buoy_detect_temp/vision_stack/buoy_detect/src), that required knowledge of multithreading, interprocess communication and networking APIs on linux
+* Designed and implemented an [integrated mission planner](https://github.com/pranaypratyush/kraken_3.0/tree/buoy_detect_temp/vision_stack/buoy_detect/src), that required knowledge of multithreading, interprocess communication and networking APIs on Linux
 
 * Built a machine learning based [pixel classification system](https://github.com/pranaypratyush/kraken_3.0/tree/buoy_detect_temp/vision_stack/buoy_detect/vw_detect/src) for detection of underwater features, that required knowledge of basic machine learning and image processing
 
 * Wrote a [Kalman filter](https://github.com/pranaypratyush/kalman_filter/tree/legacy) for position estimation of AUV by fusion of IMU and DVL sensor data
 
-* Deviced a PID controller for yaw control of the AUV
+* Devised a PID controller for yaw control of the AUV
 
 * Currently working on a machine learning based feature classification framework to detect underwater objects and their characteristics
 

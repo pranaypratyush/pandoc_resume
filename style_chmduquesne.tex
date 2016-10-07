@@ -16,30 +16,30 @@ $endif$
 
 \setupcolor[hex]
 \definecolor[titlegrey][h=757575]
-\definecolor[sectioncolor][h=397249]
-\definecolor[rulecolor][h=9cb770]
+\definecolor[sectioncolor][h=008080]
+\definecolor[rulecolor][h=329ea2]
 
 % Enable hyperlinks
 \setupinteraction[state=start, color=sectioncolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
-\setuplayout    [width=middle, height=middle,
-                 backspace=5mm, cutspace=0mm,
-                 topspace=5mm, bottomspace=5mm,
+\setuplayout    [width=160mm, height=250mm,
+                 backspace=10mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=5mm,
                  header=0mm, footer=0mm]
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[11pt, helvetica]
+\setupbodyfont[10pt, helvetica]
 
 \setupwhitespace[medium]
 
 \setupblackrules[width=31mm, color=rulecolor]
 
-\setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[chapter]      [style=\tfb]
+\setuphead[section]      [style=\tfb\bf, color=titlegrey, align=middle]
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
-                          before={\leavevmode\blackrule\hspace}]
+                          before={\leavevmode\hspace}]
 \setuphead[subsubsection][style=\bf]
 
 $if(number-sections)$
